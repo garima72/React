@@ -19,10 +19,6 @@ A personal profile card built with React as my first React project. It displays 
 - CSS
 - HTML
 
-## 📸 Preview
-
-![React Profile Card](./Screenshot (364).png)
-
 ##  Getting Started
 
 ### 1. Clone the repository
