@@ -21,7 +21,7 @@ A personal profile card built with React as my first React project. It displays 
 
 ## 📸 Preview
 
-![React Profile Card](./screenshot.png)
+![React Profile Card](./Screenshot(364).png)
 
 ##  Getting Started
 
