@@ -1,0 +1,121 @@
+:root {
+    --primary-blue : #667eea;
+    --secondary-purple : #764ba2;
+    --text-dark : #333;
+    --text-medium : #555;
+    --text-light : #666;
+    --bg-whitel : #ffff;
+}
+body {
+    background-color: #c6c7d6; 
+}
+.portfolio-card {
+    max-width : 400px;
+    margin : 50px auto;
+    background : #ffff;
+    box-shadow : 0 10px 30px #ffff;
+    border-radius: 15px;
+    overflow : hidden;
+    font-family : 'Arial', sans-serif;
+}
+.portfolio-header {
+    background: linear-gradient(135deg,#667eea 0%, #764ba2 100%);
+    padding : 20px;
+    text-align : center;
+    color : #ffff;
+}
+.portfolio-header h1 {
+    margin: 0%;
+    font-size: 1.5 rem;
+}
+.header-decoration {
+    width : 50px;
+    height : 3px;
+    background : white;
+    margin : 10px auto;
+    border-radius : 2px;
+}
+.card-content {
+    padding : 30px;
+}
+.avatar-container {
+    text-align : center;
+    margin-bottom : 20px;
+    position : relative;
+}
+.avatar-image {
+    width : 200px;
+    height : 200px;
+    border-radius : 50%;
+    object-fit : cover;
+    border : 4px solid var(--primary-blue);
+}
+.name {
+    color : var(--text-dark);
+    margin : 0 0 10px 0;
+    font-size : 1.8rem;
+}
+.role {
+    color : var(--primary-blue);
+    font-weight : bold;
+    margin : 5px 0;
+    font-size: 1.1rem;
+}
+.location , .email {
+    color : var(--text-light);
+     margin : 5px 0;
+}
+.bio-section h3 {
+    color : var(--text-dark);
+    border-bottom : 2px solid var(--primary-blue);
+    padding-bottom : 5px;
+    margin-bottom : 15px;
+}
+.bio-text {
+    line-height : 1.6;
+    color : var(--text-medium);
+    margin-bottom: 20px;
+}
+.skills-container {
+    display : flex;
+    flex-wrap : wrap;
+    gap : 8px;   
+}
+.skill-tag {
+    background : var(--primary-blue);
+    color : white;
+    padding: 5px 12px;
+    border-radius : 20px;
+    font-size : 0.9 rem;
+    font-weight : bold;
+}
+.skill-tag:hover {
+    background: var(--secondary-purple);
+    transform: translateY(-2px);
+    transition : all 0.3s ease;
+}
+.portfolio-card:hover {
+    box-shadow : 0 20px 40px #ffff;
+    transition : box-shadow 0.3s ease;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    background: rgb(46, 46, 129);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: rgb(34, 34, 110);
+    transform: translateY(-3px);
+}
